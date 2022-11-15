@@ -12,7 +12,7 @@ export default () => (
           name="first_name"
           id="first_name"
           autoComplete="given-name"
-          placeholder="Ellen"
+          placeholder="Alex"
           required
           className="py-3 px-4 block w-full shadow-sm text-warm-gray-900 focus:ring-teal-500 focus:border-teal-500 border-warm-gray-300 rounded-md"
         />
