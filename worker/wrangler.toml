@@ -5,6 +5,6 @@ account_id = "b27a3721b5eeb228a8f5ce60a4fcf39a"
 workers_dev = true
 
 [vars]
-AIRTABLE_BASE_ID = "appikq78I3OJp58vD"
+AIRTABLE_BASE_ID = "AIRTABLE_API_KEY"
 AIRTABLE_TABLE_NAME = "Form"
 FORM_URL = "workers-airtable-form-kallinos95.pages.dev"
