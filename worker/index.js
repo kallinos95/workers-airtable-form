@@ -7,8 +7,8 @@ const createAirtableRecord = body => {
     method: 'POST',
     body: JSON.stringify(body),
     headers: {
-      // Authorization: `Bearer ${AIRTABLE_API_KEY}`,
-      Authorization: `Bearer keyUmC8z2Hu5LeuBg`,
+      Authorization: `Bearer ${AIRTABLE_API_KEY}`,
+      // Authorization: `Bearer keyUmC8z2Hu5LeuBg`,
       'Content-type': `application/json`
     }
   })
