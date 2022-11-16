@@ -3,7 +3,7 @@ addEventListener('fetch', event => {
 })
 
 const createAirtableRecord = body => {
-  return fetch(`https://api.airtable.com/v0/${AIRTABLE_BASE_ID}/${AIRTABLE_TABLE_NAME}`, {
+  return fetch(`https://api.airtable.com/v0/appikq78I3OJp58vD/Form`, {
     method: 'POST',
     body: JSON.stringify(body),
     headers: {
