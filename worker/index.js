@@ -8,7 +8,6 @@ const createAirtableRecord = body => {
     body: JSON.stringify(body),
     headers: {
       Authorization: `Bearer ${AIRTABLE_API_KEY}`,
-      // Authorization: `Bearer keyUmC8z2Hu5LeuBg`,
       'Content-type': `application/json`
     }
   })
