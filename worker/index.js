@@ -5,7 +5,40 @@ addEventListener('fetch', event => {
 const createAirtableRecord = body => {
   return fetch(`https://api.airtable.com/v0/appikq78I3OJp58vD/Form`, {
     method: 'POST',
-    body: JSON.stringify(body),
+    body: JSON.stringify({
+      "records": [
+          {
+              "fields": {
+                  "First Name": "Example",
+                  "Last Name": "This",
+                  "Email": "example@example.com",
+                  "Phone Number": "004499492228",
+                  "Subject": "Test",
+                  "Message": "This is a message"
+              }
+          },
+          {
+              "fields": {
+                  "First Name": "e",
+                  "Last Name": "This",
+                  "Email": "e@example.com",
+                  "Phone Number": "004499492228",
+                  "Subject": "Test",
+                  "Message": "This is a message"
+              }
+          },
+          {
+              "fields": {
+                  "First Name": "Example",
+                  "Last Name": "This",
+                  "Email": "example@example.com",
+                  "Phone Number": "004499492228",
+                  "Subject": "Test",
+                  "Message": "This is a message"
+              }
+          }
+      ]
+  }),
     headers: {
       // Authorization: `Bearer ${AIRTABLE_API_KEY}`,
       Authorization: `Bearer keyUmC8z2Hu5LeuBg`,
